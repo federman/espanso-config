@@ -35,13 +35,13 @@ matches:
     replace: "dfederman@rockets.utoledo.edu"
     word: true
 
-  - trigger:  "djf"
-    replace:  "Douglas Federman"
-    word:  true
+  - trigger: "djf"
+    replace: "Douglas Federman"
+    word: true
 
-  - trigger:  "dfmd"
-    replace:  "Douglas Federman, M.D."
-    word:  true
+  - trigger: "dfmd"
+    replace: "Douglas Federman, M.D."
+    word: true
 
   - trigger: ":sig"
     replace: "Sincerely,\n\n\nDouglas Federman, MD, FACP"

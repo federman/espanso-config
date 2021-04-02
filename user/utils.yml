@@ -36,7 +36,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: "echo $0 | python -c \"import sys; print(''.join(sys.stdin).upper())\""
+          cmd: 'echo $0 | python -c "import sys; print(''''.join(sys.stdin).upper())"'
 
   - trigger: ":tolower"
     replace: "{{output}}"
@@ -45,7 +45,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: "echo $0 | python -c \"import sys; print(''.join(sys.stdin).lower())\""
+          cmd: 'echo $0 | python -c "import sys; print(''''.join(sys.stdin).lower())"'
 
   - trigger: ":totitle"
     replace: "{{output}}"
@@ -54,7 +54,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: "echo $0 | python -c \"import sys; print(''.join(sys.stdin).title())\""
+          cmd: 'echo $0 | python -c "import sys; print(''''.join(sys.stdin).title())"'
 
   - trigger: ":myip"
     replace: "{{output}}"

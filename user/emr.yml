@@ -2,379 +2,379 @@ name: EMR
 parent: default
 
 matches:
-  - trigger:  "evalaute"
-    word:  true
-    replace:  "evaluate"
-
-  - trigger:  "horec"
-    word:  true
-    replace:  "Hospital records were reviewed."
-
-  - trigger:  "1d"
-    word:  true
-    replace:  "one day"
-
-  - trigger:  "1m"
-    word:  true
-    replace:  "one month"
-
-  - trigger:  "1o"
-    word:  true
-    replace:  "primary"
-
-  - trigger:  "1pe"
-    word:  true
-    replace:  "1+ ankle edema"
-
-  - trigger:  "1w"
-    word:  true
-    replace:  "one week"
-
-  - trigger:  "1y"
-    word:  true
-    replace:  "one year"
-
-  - trigger:  "2d"
-    word:  true
-    replace:  "2 days"
-
-  - trigger:  "2m"
-    word:  true
-    replace:  "two months"
-
-  - trigger:  "2o"
-    word:  true
-    replace:  "secondary"
-
-  - trigger:  "2pe"
-    word:  true
-    replace:  "2+ ankle edema"
-
-  - trigger:  "2w"
-    word:  true
-    replace:  "two weeks"
-
-  - trigger:  "3d"
-    word:  true
-    replace:  "three days"
-
-  - trigger:  "3m"
-    word:  true
-    replace:  "three months"
-
-  - trigger:  "3pe"
-    word:  true
-    replace:  "3+ ankle edema"
-
-  - trigger:  "4pe"
-    word:  true
-    replace:  "4+ ankle edema"
-
-  - trigger:  "6m"
-    word:  true
-    replace:  "six months"
-
-  - trigger:  "a1c"
-    word:  true
-    replace:  "Hemoglobin A1c"
-
-  - trigger:  "adls"
-    word:  true
-    replace:  "ADLs"
-
-  - trigger:  "ao3"
-    word:  true
-    replace:  "The patient is alert and oriented to person, place and time."
-
-  - trigger:  "appt"
-    word:  true
-    replace:  "appointment"
-
-  - trigger:  "awv"
-    word:  true
-    replace:  "Medicare Annual Wellness Visit"
-
-  - trigger:  "bipap"
-    word:  true
-    replace:  "BiPAP"
-
-  - trigger:  "bmi"
-    word:  true
-    replace:  "BMI"
-
-  - trigger:  "bp"
-    word:  true
-    replace:  "Blood Pressure"
-
-  - trigger:  "bph"
-    word:  true
-    replace:  "BPH"
-
-  - trigger:  "cad"
-    word:  true
-    replace:  "CAD"
-
-  - trigger:  "cbc"
-    word:  true
-    replace:  "CBC"
-
-  - trigger:  "cbd"
-    word:  true
-    replace:  "CBD"
-
-  - trigger:  "ccath"
-    word:  true
-    replace:  "cardiac catheterization"
-
-  - trigger:  "chf"
-    word:  true
-    replace:  "CHF"
-
-  - trigger:  "ckd"
-    word:  true
-    replace:  "CKD"
-
-  - trigger:  "ckd1"
-    word:  true
-    replace:  "CKD Stage 1"
-
-  - trigger:  "ckd2"
-    word:  true
-    replace:  "CKD Stage 2"
-
-  - trigger:  "ckd3"
-    word:  true
-    replace:  "CKD Stage 3"
-
-  - trigger:  "ckd4"
-    word:  true
-    replace:  "CKD Stage 4"
-
-  - trigger:  "ckd5"
-    word:  true
-    replace:  "CKD Stage 5"
-
-  - trigger:  "cml"
-    word:  true
-    replace:  "CML"
-
-  - trigger:  "cpap"
-    word:  true
-    replace:  "CPAP"
-
-  - triggers:  ["cprs", "rsd"]
-    word:  true
-    replace:  "Complex Regional Pain Syndrome"
-
-  - trigger:  "cts"
-    word:  true
-    replace:  "carpal tunnel syndrome"
-
-  - trigger:  "cva"
-    word:  true
-    replace:  "CVA"
-
-  - trigger:  "cxr"
-    word:  true
-    replace:  "CXR"
-
-  - trigger:  "derm"
-    word:  true
-    replace:  "Dermatology"
-
-  - trigger:  "djd"
-    word:  true
-    replace:  "DJD"
-
-  - trigger:  "dm1"
-    word:  true
-    replace:  "Diabetes Mellitus Type 1"
-
-  - trigger:  "dm2"
-    word:  true
-    replace:  "Diabetes Mellitus Type 2"
-
-  - trigger:  "dtr"
-    word:  true
-    replace:  "DTR"
-
-  - trigger:  "dvt"
-    word:  true
-    replace:  "deep venous thrombosis"
-
-  - trigger:  "ecg"
-    word:  true
-    replace:  "ECG"
-
-  - trigger:  "ef"
-    word:  true
-    replace:  "ejection fraction"
-
-  - trigger:  "ekg"
-    word:  true
-    replace:  "EKG"
-
-  - trigger:  "esrd"
-    word:  true
-    replace:  "ESRD"
-
-  - trigger:  "fu"
-    word:  true
-    replace:  "follow up"
-
-  - trigger:  "gerd"
-    word:  true
-    replace:  "GERD"
-
-  - trigger:  "gerdc"
-    word:  true
-    replace:  "Gastroesophageal reflux symptoms are controlled.  Patient denies nausea, emesis, melena or hematochezia.  Non-pharmacologic therapy for GERD was reviewed during visit."
-
-  - trigger:  "ghn"
-    word:  true
-    replace:  "group home staff report no new medical or behavioral problems"
-
-  - trigger:  "ghs"
-    word:  true
-    replace:  "group home staff"
-
-  - trigger:  "hagma"
-    word:  true
-    replace:  "high anion gap metabolic acidosis"
-
-  - trigger:  "hfprf"
-    word:  true
-    replace:  "HFpEF"
-
-  - trigger:  "hfref"
-    word:  true
-    replace:  "HFrEF"
-
-  - trigger:  "hgb"
-    word:  true
-    replace:  "hemoglobin"
-
-  - trigger:  "hiv"
-    word:  true
-    replace:  "HIV"
-
-  - trigger:  "hsc"
-    word:  true
-    replace:  "hemorrhagic scale crust"
-
-  - trigger:  "hx"
-    word:  true
-    replace:  "history"
-
-  - trigger:  "hyperglcyemia"
-    word:  true
-    replace:  "hyperglycemia"
-
-  - trigger:  "hypoglcyemia"
-    word:  true
-    replace:  "hypoglycemia"
-
-  - trigger:  "iadls"
-    word:  true
-    replace:  "IADLs"
-
-  - trigger:  "ics"
-    word:  true
-    replace:  "ICS"
-
-  - trigger:  "lbp"
-    word:  true
-    replace:  "low back pain"
-
-  - trigger:  "llq"
-    word:  true
-    replace:  "LLQ"
-
-  - trigger:  "llsb"
-    word:  true
-    replace:  "lower left sternal border"
-
-  - trigger:  "luq"
-    word:  true
-    replace:  "LUQ"
-
-  - trigger:  "mcp"
-    word:  true
-    replace:  "MCP"
-
-  - trigger:  "mgt"
-    word:  true
-    replace:  "management"
-
-  - trigger:  "mrdd"
-    word:  true
-    replace:  "Mental Retardation/Developmental Delay"
-
-  - trigger:  "mtp"
-    word:  true
-    replace:  "MTP"
-
-  - trigger:  "nabd"
-    word:  true
-    replace:  "The abdomen is soft and non-tender.  There is no guarding or rebound.  No abdominal masses or organomegaly are noted.  CVA tenderness is absent."
-
-  - trigger:  "nagma"
-    word:  true
-    replace:  "non-anion gap metabolic acidosis"
-
-  - trigger:  "nbreast"
-    word:  true
-    replace:  "The breasts have no masses or tenderness.  The skin is normal.  The nipples have normal appearance.  There is no palpable axillary lymphadenopathy."
-
-  - trigger:  "ncat"
-    word:  true
-    replace:  "The head is normocephalic, atraumatic with no deformities."
-
-  - trigger:  "neph"
-    word:  true
-    replace:  "Nephrology"
-
-  - trigger:  "newp"
-    word:  true
-    replace:  "New Problem: "
-
-  - trigger:  "nheart"
-    word:  true
-    replace:  "The heart has regular rate and rhythm without murmur, rub or gallop."
-
-  - trigger:  "nlung"
-    word:  true
-    replace:  "Chest wall expansion is normal.  There are no deformities of the chest wall.  Breathing is non-labored.  Breath sounds are normal without rales or rhonchi."
-
-  - trigger:  "nmusc"
-    word:  true
-    replace:  "Gait is normal. There is normal muscle mass, strength and tone in the upper and lower extremities.  No joint deformities, swelling or tenderness.  ROM of extremities is normal.  There is no tenderness to palpation of the cervical, thoracic or lumbar spine."
-
-  - trigger:  "nochf"
-    word:  true
-    replace:  "Patient denies chest pain, dyspnea, orthopnea, paroxysmal nocturnal dyspnea, palpitations. No report of lower extremity edema."
-
-  - trigger:  "noex"
-    word:  true
-    replace:  "No exacerbating or remitting factors identified by the patient."
-
-  - trigger:  "nogi"
-    word:  true
-    replace:  "Patient denies nausea, emesis, diarrhea, constipation or change in bowel pattern.  No melena or hematochezia."
-
-  - trigger:  "noredflags"
-    word:  true
-    replace:  "Patient denies trauma.  No fevers, chills or night sweats.  No weight loss.  No urinary symptoms.  No incontinence of bowel or bladder. No change in sensation or motor weakness."
-
-  - trigger:  "norx"
-    word:  true
-    replace:  "No change in medications"
-
-  - trigger:  "notx"
-    word:  true
-    replace:  "No change in therapy"
-
-  - trigger:  "nowarf"
+  - trigger: "evalaute"
+    word: true
+    replace: "evaluate"
+
+  - trigger: "horec"
+    word: true
+    replace: "Hospital records were reviewed."
+
+  - trigger: "1d"
+    word: true
+    replace: "one day"
+
+  - trigger: "1m"
+    word: true
+    replace: "one month"
+
+  - trigger: "1o"
+    word: true
+    replace: "primary"
+
+  - trigger: "1pe"
+    word: true
+    replace: "1+ ankle edema"
+
+  - trigger: "1w"
+    word: true
+    replace: "one week"
+
+  - trigger: "1y"
+    word: true
+    replace: "one year"
+
+  - trigger: "2d"
+    word: true
+    replace: "2 days"
+
+  - trigger: "2m"
+    word: true
+    replace: "two months"
+
+  - trigger: "2o"
+    word: true
+    replace: "secondary"
+
+  - trigger: "2pe"
+    word: true
+    replace: "2+ ankle edema"
+
+  - trigger: "2w"
+    word: true
+    replace: "two weeks"
+
+  - trigger: "3d"
+    word: true
+    replace: "three days"
+
+  - trigger: "3m"
+    word: true
+    replace: "three months"
+
+  - trigger: "3pe"
+    word: true
+    replace: "3+ ankle edema"
+
+  - trigger: "4pe"
+    word: true
+    replace: "4+ ankle edema"
+
+  - trigger: "6m"
+    word: true
+    replace: "six months"
+
+  - trigger: "a1c"
+    word: true
+    replace: "Hemoglobin A1c"
+
+  - trigger: "adls"
+    word: true
+    replace: "ADLs"
+
+  - trigger: "ao3"
+    word: true
+    replace: "The patient is alert and oriented to person, place and time."
+
+  - trigger: "appt"
+    word: true
+    replace: "appointment"
+
+  - trigger: "awv"
+    word: true
+    replace: "Medicare Annual Wellness Visit"
+
+  - trigger: "bipap"
+    word: true
+    replace: "BiPAP"
+
+  - trigger: "bmi"
+    word: true
+    replace: "BMI"
+
+  - trigger: "bp"
+    word: true
+    replace: "Blood Pressure"
+
+  - trigger: "bph"
+    word: true
+    replace: "BPH"
+
+  - trigger: "cad"
+    word: true
+    replace: "CAD"
+
+  - trigger: "cbc"
+    word: true
+    replace: "CBC"
+
+  - trigger: "cbd"
+    word: true
+    replace: "CBD"
+
+  - trigger: "ccath"
+    word: true
+    replace: "cardiac catheterization"
+
+  - trigger: "chf"
+    word: true
+    replace: "CHF"
+
+  - trigger: "ckd"
+    word: true
+    replace: "CKD"
+
+  - trigger: "ckd1"
+    word: true
+    replace: "CKD Stage 1"
+
+  - trigger: "ckd2"
+    word: true
+    replace: "CKD Stage 2"
+
+  - trigger: "ckd3"
+    word: true
+    replace: "CKD Stage 3"
+
+  - trigger: "ckd4"
+    word: true
+    replace: "CKD Stage 4"
+
+  - trigger: "ckd5"
+    word: true
+    replace: "CKD Stage 5"
+
+  - trigger: "cml"
+    word: true
+    replace: "CML"
+
+  - trigger: "cpap"
+    word: true
+    replace: "CPAP"
+
+  - triggers: ["cprs", "rsd"]
+    word: true
+    replace: "Complex Regional Pain Syndrome"
+
+  - trigger: "cts"
+    word: true
+    replace: "carpal tunnel syndrome"
+
+  - trigger: "cva"
+    word: true
+    replace: "CVA"
+
+  - trigger: "cxr"
+    word: true
+    replace: "CXR"
+
+  - trigger: "derm"
+    word: true
+    replace: "Dermatology"
+
+  - trigger: "djd"
+    word: true
+    replace: "DJD"
+
+  - trigger: "dm1"
+    word: true
+    replace: "Diabetes Mellitus Type 1"
+
+  - trigger: "dm2"
+    word: true
+    replace: "Diabetes Mellitus Type 2"
+
+  - trigger: "dtr"
+    word: true
+    replace: "DTR"
+
+  - trigger: "dvt"
+    word: true
+    replace: "deep venous thrombosis"
+
+  - trigger: "ecg"
+    word: true
+    replace: "ECG"
+
+  - trigger: "ef"
+    word: true
+    replace: "ejection fraction"
+
+  - trigger: "ekg"
+    word: true
+    replace: "EKG"
+
+  - trigger: "esrd"
+    word: true
+    replace: "ESRD"
+
+  - trigger: "fu"
+    word: true
+    replace: "follow up"
+
+  - trigger: "gerd"
+    word: true
+    replace: "GERD"
+
+  - trigger: "gerdc"
+    word: true
+    replace: "Gastroesophageal reflux symptoms are controlled.  Patient denies nausea, emesis, melena or hematochezia.  Non-pharmacologic therapy for GERD was reviewed during visit."
+
+  - trigger: "ghn"
+    word: true
+    replace: "group home staff report no new medical or behavioral problems"
+
+  - trigger: "ghs"
+    word: true
+    replace: "group home staff"
+
+  - trigger: "hagma"
+    word: true
+    replace: "high anion gap metabolic acidosis"
+
+  - trigger: "hfprf"
+    word: true
+    replace: "HFpEF"
+
+  - trigger: "hfref"
+    word: true
+    replace: "HFrEF"
+
+  - trigger: "hgb"
+    word: true
+    replace: "hemoglobin"
+
+  - trigger: "hiv"
+    word: true
+    replace: "HIV"
+
+  - trigger: "hsc"
+    word: true
+    replace: "hemorrhagic scale crust"
+
+  - trigger: "hx"
+    word: true
+    replace: "history"
+
+  - trigger: "hyperglcyemia"
+    word: true
+    replace: "hyperglycemia"
+
+  - trigger: "hypoglcyemia"
+    word: true
+    replace: "hypoglycemia"
+
+  - trigger: "iadls"
+    word: true
+    replace: "IADLs"
+
+  - trigger: "ics"
+    word: true
+    replace: "ICS"
+
+  - trigger: "lbp"
+    word: true
+    replace: "low back pain"
+
+  - trigger: "llq"
+    word: true
+    replace: "LLQ"
+
+  - trigger: "llsb"
+    word: true
+    replace: "lower left sternal border"
+
+  - trigger: "luq"
+    word: true
+    replace: "LUQ"
+
+  - trigger: "mcp"
+    word: true
+    replace: "MCP"
+
+  - trigger: "mgt"
+    word: true
+    replace: "management"
+
+  - trigger: "mrdd"
+    word: true
+    replace: "Mental Retardation/Developmental Delay"
+
+  - trigger: "mtp"
+    word: true
+    replace: "MTP"
+
+  - trigger: "nabd"
+    word: true
+    replace: "The abdomen is soft and non-tender.  There is no guarding or rebound.  No abdominal masses or organomegaly are noted.  CVA tenderness is absent."
+
+  - trigger: "nagma"
+    word: true
+    replace: "non-anion gap metabolic acidosis"
+
+  - trigger: "nbreast"
+    word: true
+    replace: "The breasts have no masses or tenderness.  The skin is normal.  The nipples have normal appearance.  There is no palpable axillary lymphadenopathy."
+
+  - trigger: "ncat"
+    word: true
+    replace: "The head is normocephalic, atraumatic with no deformities."
+
+  - trigger: "neph"
+    word: true
+    replace: "Nephrology"
+
+  - trigger: "newp"
+    word: true
+    replace: "New Problem: "
+
+  - trigger: "nheart"
+    word: true
+    replace: "The heart has regular rate and rhythm without murmur, rub or gallop."
+
+  - trigger: "nlung"
+    word: true
+    replace: "Chest wall expansion is normal.  There are no deformities of the chest wall.  Breathing is non-labored.  Breath sounds are normal without rales or rhonchi."
+
+  - trigger: "nmusc"
+    word: true
+    replace: "Gait is normal. There is normal muscle mass, strength and tone in the upper and lower extremities.  No joint deformities, swelling or tenderness.  ROM of extremities is normal.  There is no tenderness to palpation of the cervical, thoracic or lumbar spine."
+
+  - trigger: "nochf"
+    word: true
+    replace: "Patient denies chest pain, dyspnea, orthopnea, paroxysmal nocturnal dyspnea, palpitations. No report of lower extremity edema."
+
+  - trigger: "noex"
+    word: true
+    replace: "No exacerbating or remitting factors identified by the patient."
+
+  - trigger: "nogi"
+    word: true
+    replace: "Patient denies nausea, emesis, diarrhea, constipation or change in bowel pattern.  No melena or hematochezia."
+
+  - trigger: "noredflags"
+    word: true
+    replace: "Patient denies trauma.  No fevers, chills or night sweats.  No weight loss.  No urinary symptoms.  No incontinence of bowel or bladder. No change in sensation or motor weakness."
+
+  - trigger: "norx"
+    word: true
+    replace: "No change in medications"
+
+  - trigger: "notx"
+    word: true
+    replace: "No change in therapy"
+
+  - trigger: "nowarf"
     form: >
       Patient's lab results reviewed. INR is in therapeutic range.
       No change in warfarin dosage. Repeat PT/INR in {{nweeks}} week[s].
@@ -383,9 +383,9 @@ matches:
     form: |
       {{choices}}
 
-  - trigger:  "npe"
-    word:  true
-    form:  |
+  - trigger: "npe"
+    word: true
+    form: |
       Body habitus: {{bhab}}
       Patient is awake, alert and in no distress.
       Oriented to person, place and time
@@ -417,9 +417,9 @@ matches:
           - absent
           - present
 
-  - trigger:  "npe2"
-    word:  true
-    form:  |
+  - trigger: "npe2"
+    word: true
+    form: |
       Body habitus: {{bhab}}
       Patient is awake, alert and in no distress.
       Oriented to person, place and time.
@@ -451,121 +451,121 @@ matches:
           - absent
           - present
 
-  - trigger:  "npi"
-    word:  true
-    replace:  "NPI: 1427043629"
+  - trigger: "npi"
+    word: true
+    replace: "NPI: 1427043629"
 
-  - trigger:  "nsaids"
-    word:  true
-    replace:  "NSAIDs"
+  - trigger: "nsaids"
+    word: true
+    replace: "NSAIDs"
 
-  - trigger:  "o2"
-    word:  true
-    replace:  "oxygen"
+  - trigger: "o2"
+    word: true
+    replace: "oxygen"
 
-  - trigger:  "oarrs"
-    word:  true
-    replace:  "OARRS (PDMP) Report reviewed {{sdate}}"
+  - trigger: "oarrs"
+    word: true
+    replace: "OARRS (PDMP) Report reviewed {{sdate}}"
 
-  - trigger:  "ophth"
-    word:  true
-    replace:  "Ophthalmology"
+  - trigger: "ophth"
+    word: true
+    replace: "Ophthalmology"
 
-  - trigger:  "ortho"
-    word:  true
-    replace:  "Orthopedics"
+  - trigger: "ortho"
+    word: true
+    replace: "Orthopedics"
 
-  - trigger:  "otc"
-    word:  true
-    replace:  "OTC"
+  - trigger: "otc"
+    word: true
+    replace: "OTC"
 
-  - trigger:  "pap"
-    word:  true
-    replace:  "Papanicolaou test"
+  - trigger: "pap"
+    word: true
+    replace: "Papanicolaou test"
 
-  - trigger:  "pihy"
-    word:  true
-    replace:  "post-inflammatory hyperpigmentation"
+  - trigger: "pihy"
+    word: true
+    replace: "post-inflammatory hyperpigmentation"
 
-  - trigger:  "polyd"
-    word:  true
-    replace:  "Denies polydipsia, polyphagia and urinary frequency."
+  - trigger: "polyd"
+    word: true
+    replace: "Denies polydipsia, polyphagia and urinary frequency."
 
-  - trigger:  "ppd"
-    word:  true
-    replace:  "PPD"
+  - trigger: "ppd"
+    word: true
+    replace: "PPD"
 
-  - trigger:  "prbc"
-    word:  true
-    replace:  "PRBC"
+  - trigger: "prbc"
+    word: true
+    replace: "PRBC"
 
-  - trigger:  "PrEP"
-    word:  true
-    replace:  "Pre-exposure exposure prophylaxis for HIV (PrEP)"
+  - trigger: "PrEP"
+    word: true
+    replace: "Pre-exposure exposure prophylaxis for HIV (PrEP)"
 
-  - trigger:  "psy"
-    word:  true
-    replace:  "Psychiatry"
+  - trigger: "psy"
+    word: true
+    replace: "Psychiatry"
 
-  - trigger:  "pta"
-    word:  true
-    replace:  "prior to admission"
+  - trigger: "pta"
+    word: true
+    replace: "prior to admission"
 
-  - trigger:  "pulm"
-    word:  true
-    replace:  "Pulmonary"
+  - trigger: "pulm"
+    word: true
+    replace: "Pulmonary"
 
-  - trigger:  "reslab"
-    word:  true
-    replace:  "Please review these results and decide on necessary action.  You should have staff inform patient of results and your interpretation after review.  If you have questions, please ask me."
+  - trigger: "reslab"
+    word: true
+    replace: "Please review these results and decide on necessary action.  You should have staff inform patient of results and your interpretation after review.  If you have questions, please ask me."
 
-  - trigger:  "rheum"
-    word:  true
-    replace:  "Rheumatology"
+  - trigger: "rheum"
+    word: true
+    replace: "Rheumatology"
 
-  - trigger:  "rlq"
-    word:  true
-    replace:  "RLQ"
+  - trigger: "rlq"
+    word: true
+    replace: "RLQ"
 
-  - trigger:  "rls"
-    word:  true
-    replace:  "restless leg syndrome"
+  - trigger: "rls"
+    word: true
+    replace: "restless leg syndrome"
 
-  - trigger:  "rsd"
-    word:  true
-    replace:  "Complex Regional Pain Syndrome"
+  - trigger: "rsd"
+    word: true
+    replace: "Complex Regional Pain Syndrome"
 
-  - trigger:  "rtc"
-    word:  true
-    replace:  "return to clinic in"
+  - trigger: "rtc"
+    word: true
+    replace: "return to clinic in"
 
-  - trigger:  "ruq"
-    word:  true
-    replace:  "RUQ"
+  - trigger: "ruq"
+    word: true
+    replace: "RUQ"
 
-  - trigger:  "rx"
-    word:  true
-    replace:  "prescription"
+  - trigger: "rx"
+    word: true
+    replace: "prescription"
 
-  - trigger:  "slr"
-    word:  true
-    replace:  "SLR"
+  - trigger: "slr"
+    word: true
+    replace: "SLR"
 
-  - trigger:  "snf"
-    word:  true
-    replace:  "Skilled Nursing Facility"
+  - trigger: "snf"
+    word: true
+    replace: "Skilled Nursing Facility"
 
-  - trigger:  "sta"
-    word:  true
-    replace:  "Mercy St. Anne Hospital"
+  - trigger: "sta"
+    word: true
+    replace: "Mercy St. Anne Hospital"
 
-  - trigger:  "stc"
-    word:  true
-    replace:  "Mercy St. Charles Hospital"
+  - trigger: "stc"
+    word: true
+    replace: "Mercy St. Charles Hospital"
 
-  - trigger:  "sti"
-    word:  true
-    replace:  "sexually transmitted infection"
+  - trigger: "sti"
+    word: true
+    replace: "sexually transmitted infection"
 
   - trigger: "stuatt"
     replace: "[Begin Student Note]\n{{clipboard}}\n[End Student Note]"
@@ -573,70 +573,70 @@ matches:
       - name: "clipboard"
         type: "clipboard"
 
-  - trigger:  "svmc"
-    word:  true
-    replace:  "Mercy St. Vincent Medical Center"
-
-  - trigger:  "sx"
-    word:  true
-    replace:  "symptoms"
-
-  - trigger:  "tcmcall"
-    word:  true
-    replace:  "Please make TCM call and arrange a TCM visit within 14 days of discharge"
-
-  - trigger:  "tha"
-    word:  true
-    replace:  "total hip arthroplasty"
-
-  - trigger:  "trab"
-    word:  true
-    replace:  "Triple antibiotic ointment"
-
-  - trigger:  "tth"
-    word:  true
-    replace:  "ProMedica Toledo Hospital"
-
-  - trigger:  "ua"
-    word:  true
-    replace:  "urinanalysis"
-
-  - trigger:  "uri"
-    word:  true
-    replace:  "upper respiratory infection"
-
-  - trigger:  "uti"
-    word:  true
-    replace:  "urinary tract infection"
-
-  - trigger:  "utmc"
-    word:  true
-    replace:  "University of Toledo Medical Center"
-
-  - trigger:  "wbc"
-    word:  true
-    replace:  "WBC"
-
-  - trigger:  "nothy"
-    word:  true
-    replace:  "Hypothyroidism - patient denies fatigue, weight change, change in hair or skin, change in bowel pattern."
-
-  - trigger:  "gyn"
-    word:  true
-    replace:  "gynecologist"
-
-  - trigger:  "0pe"
-    word:  true
-    replace:  "There is a trace of edema present at the ankles."
-
-  - trigger:  "-pe"
-    word:  true
-    replace:  "No edema is present at the ankles."
-
-  - trigger:  "pnd"
-    word:  true
-    replace:  "PND"
-
-  - triggers:  ["cfs", "SEID"]
+  - trigger: "svmc"
     word: true
-    replace:  "SEID"
+    replace: "Mercy St. Vincent Medical Center"
+
+  - trigger: "sx"
+    word: true
+    replace: "symptoms"
+
+  - trigger: "tcmcall"
+    word: true
+    replace: "Please make TCM call and arrange a TCM visit within 14 days of discharge"
+
+  - trigger: "tha"
+    word: true
+    replace: "total hip arthroplasty"
+
+  - trigger: "trab"
+    word: true
+    replace: "Triple antibiotic ointment"
+
+  - trigger: "tth"
+    word: true
+    replace: "ProMedica Toledo Hospital"
+
+  - trigger: "ua"
+    word: true
+    replace: "urinanalysis"
+
+  - trigger: "uri"
+    word: true
+    replace: "upper respiratory infection"
+
+  - trigger: "uti"
+    word: true
+    replace: "urinary tract infection"
+
+  - trigger: "utmc"
+    word: true
+    replace: "University of Toledo Medical Center"
+
+  - trigger: "wbc"
+    word: true
+    replace: "WBC"
+
+  - trigger: "nothy"
+    word: true
+    replace: "Hypothyroidism - patient denies fatigue, weight change, change in hair or skin, change in bowel pattern."
+
+  - trigger: "gyn"
+    word: true
+    replace: "gynecologist"
+
+  - trigger: "0pe"
+    word: true
+    replace: "There is a trace of edema present at the ankles."
+
+  - trigger: "-pe"
+    word: true
+    replace: "No edema is present at the ankles."
+
+  - trigger: "pnd"
+    word: true
+    replace: "PND"
+
+  - triggers: ["cfs", "SEID"]
+    word: true
+    replace: "SEID"
