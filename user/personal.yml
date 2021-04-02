@@ -1,0 +1,47 @@
+name: personal
+parent: default
+
+global_vars:
+  - name: "cname"
+    type: "dummy"
+    params:
+      echo: "South Toledo Internists"
+
+  - name: "myname"
+    type: "dummy"
+    params:
+      echo: "Douglas Federman, MD"
+
+  - name: "myemail"
+    type: "dummy"
+    params:
+      echo: "dfederman@rockets.utoledo.edu"
+
+  - name: "myphone"
+    type: "dummy"
+    params:
+      echo: "419-383-5614"
+
+matches:
+  - trigger: "f@"
+    replace: "federman@yahoo.com"
+    word: true
+
+  - trigger: "df@"
+    replace: "doug.federman@gmail.com"
+    word: true
+
+  - trigger: "dfmd@"
+    replace: "dfederman@rockets.utoledo.edu"
+    word: true
+
+  - trigger:  "djf"
+    replace:  "Douglas Federman"
+    word:  true
+
+  - trigger:  "dfmd"
+    replace:  "Douglas Federman, M.D."
+    word:  true
+
+  - trigger: ":sig"
+    replace: "Sincerely,\n\n\nDouglas Federman, MD, FACP"

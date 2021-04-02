@@ -1,0 +1,65 @@
+name: utils
+parent: default
+
+matches:
+  - trigger: ":sdate"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  - trigger: ":ldate"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%B%e, %Y"
+
+  - trigger: ":dts"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d %H:%M"
+
+  - trigger: ":tz"
+    replace: "  - trigger: \":$|$\"\n    replace: \"\"\n    word: false"
+
+  - trigger: ":toupper"
+    replace: "{{output}}"
+    passive_only: true
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $0 | python -c \"import sys; print(''.join(sys.stdin).upper())\""
+
+  - trigger: ":tolower"
+    replace: "{{output}}"
+    passive_only: true
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $0 | python -c \"import sys; print(''.join(sys.stdin).lower())\""
+
+  - trigger: ":totitle"
+    replace: "{{output}}"
+    passive_only: true
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $0 | python -c \"import sys; print(''.join(sys.stdin).title())\""
+
+  - trigger: ":myip"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2"

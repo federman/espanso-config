@@ -1,0 +1,12 @@
+backend: "Inject" #"Clipboard"
+auto_restart: true
+backspace_limit: 3
+enable_active: true
+enable_passive: false
+toggle_key: "ALT"
+passive_key: "OFF"
+secure_input_notification: true
+show_icon: true
+show_notifications: true
+undo_backspace: true
+fast_inject: true # Linux only
