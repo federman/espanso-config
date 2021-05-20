@@ -158,6 +158,10 @@ matches:
     word: true
     replace: "CML"
 
+  - trigger: "covid"
+    replace: "COVID"
+    word: false
+
   - trigger: "cpap"
     word: true
     replace: "CPAP"

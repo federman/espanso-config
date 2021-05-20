@@ -1,4 +1,4 @@
-backend: "Inject" #"Clipboard"
+backend: "Clipboard" # ["Inject"|"Clipboard"]
 auto_restart: true
 backspace_limit: 3
 enable_active: true

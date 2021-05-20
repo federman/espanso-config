@@ -15,7 +15,7 @@ global_vars:
   - name: "myemail"
     type: "dummy"
     params:
-      echo: "dfederman@rockets.utoledo.edu"
+      echo: "douglas.federman@utoledo.edu"
 
   - name: "myphone"
     type: "dummy"
