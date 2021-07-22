@@ -66,3 +66,11 @@ matches:
         type: shell
         params:
           cmd: "ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2"
+
+  - trigger: ":espanso"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "open -a code  -e $HOME/Library/Preferences/espanso/default.yml"
