@@ -73,7 +73,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: "/usr/local/bin/code /users/dfederman/.espanso/espanso-config.code-workspace"
+          cmd: "/usr/local/bin/.espanso/config/* ~/.espanso/match/*"
 
   - trigger: ":cht"
     replace: "{{output}}"
