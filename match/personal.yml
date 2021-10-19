@@ -1,5 +1,5 @@
 name: personal
-parent: default
+parent: base
 
 global_vars:
   - name: "cname"

@@ -1,5 +1,5 @@
 name: utils
-parent: default
+parent: base
 
 matches:
   - trigger: ":sdate"
@@ -74,3 +74,21 @@ matches:
         type: shell
         params:
           cmd: "/usr/local/bin/code /users/dfederman/.espanso/espanso-config.code-workspace"
+
+  - trigger: ":cht"
+    replace: "{{output}}"
+    passive_only: true
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'curl "https://cht.sh/$0?QT&style=bw"'
+
+  - trigger: ":vcht"
+    replace: "{{output}}"
+    passive_only: true
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: 'curl "https://cht.sh/$0?qT&style=bw"'

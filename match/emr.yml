@@ -1,5 +1,5 @@
 name: EMR
-parent: default
+parent: base
 
 matches:
   - trigger: "evalaute"

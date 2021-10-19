@@ -1,10 +1,10 @@
-backend: "Clipboard" # ["Inject"|"Clipboard"]
+backend: "Auto" # ["Auto"|"Inject"|"Clipboard"]
 auto_restart: true
 backspace_limit: 3
 enable_active: true
 enable_passive: false
 toggle_key: "ALT"
-passive_key: "OFF"
+passive_key: "CTRL"
 secure_input_notification: true
 show_icon: true
 show_notifications: true
